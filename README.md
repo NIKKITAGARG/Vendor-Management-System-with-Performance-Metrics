@@ -29,13 +29,7 @@ uuid
 **2. Install dependencies:**  
    npm install  
 
-**3. Set up environment variables:**  
-    Create a .env file in the root directory and add the following:  
-    PORT=5000  
-    MONGODB_URI=mongodb://localhost:27017/vendor_management  
-    JWT_SECRET=your_secret_key  
-
-**4. Run the application:**  
+**3. Run the application:**  
      npm run dev  
      
 # API Documentation ->[ https://api.postman.com/collections/27024291-6150ac8a-ebac-4363-b450-7d9d34001624?access_key=PMAT-01J6M5TGTY4ZQ92B0V46A2P5SF](https://web.postman.co/workspace/872d0c52-a05b-49ef-bc9d-dfb96dab02e6/documentation/27024291-6150ac8a-ebac-4363-b450-7d9d34001624)  
