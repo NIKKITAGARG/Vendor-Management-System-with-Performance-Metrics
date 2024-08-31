@@ -34,7 +34,7 @@ uuid
 **4. Run the application:**
      npm run dev
      
-# API Documentation
+# API Documentation -> https://api.postman.com/collections/27024291-6150ac8a-ebac-4363-b450-7d9d34001624?access_key=PMAT-01J6M5TGTY4ZQ92B0V46A2P5SF
 
 **Vendor Management**
 POST /vendors: Create a new vendor.
