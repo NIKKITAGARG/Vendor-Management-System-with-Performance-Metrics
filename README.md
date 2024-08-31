@@ -21,34 +21,43 @@ supertest
 uuid
 
 **Installation**
+
 **1. Clone the repository:**
    git clone https://github.com/yourusername/vendor-management-system.git
    cd vendor-management-system
+
 **2. Install dependencies:**
    npm install
+
 **3. Set up environment variables:**
     Create a .env file in the root directory and add the following:
     PORT=5000
     MONGODB_URI=mongodb://localhost:27017/vendor_management
     JWT_SECRET=your_secret_key
+
 **4. Run the application:**
      npm run dev
      
 # API Documentation -> https://api.postman.com/collections/27024291-6150ac8a-ebac-4363-b450-7d9d34001624?access_key=PMAT-01J6M5TGTY4ZQ92B0V46A2P5SF
 
 **Vendor Management**
+
 POST /vendors: Create a new vendor.
 GET /vendors: Retrieve all vendors.
 GET /vendors/:vendorId: Retrieve a specific vendor.
 PUT /vendors/:vendorId: Update a vendor's details.
 DELETE /vendors/:vendorId: Delete a vendor.
+
 **Purchase Order Management**
+
 POST /purchase-orders: Create a new purchase order.
 GET /purchase-orders: Retrieve all purchase orders.
 GET /purchase-orders/:poId: Retrieve a specific purchase order.
 PUT /purchase-orders/:poId: Update a purchase order.
 DELETE /purchase-orders/:poId: Delete a purchase order.
+
 **Performance Metrics**
+
 GET /vendors/:vendorId/performance: Retrieve performance metrics for a specific vendor.
 Authentication
 POST /auth/register: Register a new user.
