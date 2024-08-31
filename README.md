@@ -59,7 +59,8 @@ POST /auth/login: Authenticate a user and receive a JWT token.
 
 # Running Tests
 1. go to src/index.js and comment line 23 app.listen(...);
-2. run `npm test` in command line
+2. add more test cases in src/tests directory.  
+3. run `npm test` in command line
 
 
 
